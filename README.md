@@ -1,2 +1,2 @@
-# software-dev-class-2026
-This repository showcases prompt engineering practices using OpenCode, the MiniMax agent, and Claude. Developed for a Software Development course (Spring 2026) at Xi'an Jiaotong University, it includes four projects: rainfall forecasting, SCS-CN runoff modeling, reservoir optimization, and DEM-based flood analysis.
+# Project 1 Short-term Rainfall Forecasting & Alert System
+This project focuses on building a real-time rainfall monitoring system that integrates external weather APIs, implements threshold-based alerting logic, and displays results through a web dashboard. This project will apply AI-assisted development techniques to create a functional system for urban flood management.
