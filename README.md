@@ -1,2 +1,3 @@
-# software-dev-class-2026
-This repository showcases prompt engineering practices using OpenCode, the MiniMax agent, and Claude. Developed for a Software Development course (Spring 2026) at Xi'an Jiaotong University, it includes four projects: rainfall forecasting, SCS-CN runoff modeling, reservoir optimization, and DEM-based flood analysis.
+# Project 2 Hydrological Modeling: SCS-CN Runoff Calculation
+Experiment Overview
+This experiment focuses on implementing the Soil Conservation Service Curve Number (SCS-CN) method, the most widely used approach for estimating direct runoff from rainfall. You will translate the mathematical formula into Python code, handle physical boundary conditions, and perform parameter sensitivity analysis.
