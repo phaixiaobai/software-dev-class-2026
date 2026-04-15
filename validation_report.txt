@@ -1,0 +1,16 @@
+======================================================================
+RESERVOIR OPTIMIZATION VALIDATION REPORT
+======================================================================
+
+Loaded 7 days from optimal_schedule.csv
+
+[FAIL] ✗ Storage Lower Bound (V_min) — Days violate: [6, 7], min=99999 m³ on Day 6
+[PASS] ✓ Storage Upper Bound (V_max) — Max storage: 1000000 m³ on Day 2
+[PASS] ✓ Ecological Release (Q_eco) — All releases >= 10 m³/s, min=10.00 m³/s on Day 1
+[PASS] ✓ Maximum Release (Q_max) — All releases <= 100 m³/s, max=25.42 m³/s on Day 6
+[FAIL] ✗ Mass Balance — Violations: Day 2: diff=256.0m³, Day 6: diff=288.0m³
+[PASS] ✓ Revenue Calculation — All revenues verified, total=$91.53
+
+======================================================================
+4/6 checks passed | Total Revenue: $91.53
+======================================================================
