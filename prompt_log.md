@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # Prompt Log — Experiment 2: SCS-CN Runoff
 
 This document logs the AI-assisted coding experiment for implementing the Soil Conservation Service Curve Number (SCS-CN) runoff method.
@@ -155,7 +154,6 @@ Yes. The implementation produces Q = 13.80 mm for P = 50 mm and CN = 80, which m
 ## Summary
 
 All four AI-generated components (implementation, tests, analysis, validation) passed verification. The code correctly implements the SCS-CN method and satisfies physical constraints including conservation of mass, monotonicity, and boundary conditions.
-=======
 # Prompt Log - Rainfall Monitoring Project
 
 ## 1. Introduction
@@ -742,4 +740,4 @@ The Direct prompting approach proved effective because:
 *Project: Rainfall Monitoring System*
 *Course: Software Development Assignment*
 *Institution: Xian-Jiaotong University*
->>>>>>> Stashed changes
+=======

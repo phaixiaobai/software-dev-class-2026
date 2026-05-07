@@ -1,0 +1,29 @@
+===============================================
+FLOOD INUNDATION — PHYSICAL VALIDATION REPORT
+===============================================
+
+--- SECTION 1: Edge Case Validation ---
+[PASS] ✓ Test 1a: Zero flood below min elevation — flooded % = 0.0%
+[PASS] ✓ Test 1b: Full flood above max elevation — flooded % = 100.0%
+[PASS] ✓ Test 1c: ~50% flood at mean elevation — flooded % = 50.3% (expected 30-70%)
+
+--- SECTION 2: Depth Validation ---
+[PASS] ✓ Test 2a: Max depth equals water_level - dem.min() — expected 15.432m, got 15.432m
+[PASS] ✓ Test 2b: No negative depths — all depths >= 0
+[PASS] ✓ Test 2c: Depth > 0 where flooded — depth > 0 for all flooded cells
+[PASS] ✓ Test 2d: Depth == 0 where not flooded — depth = 0 for all non-flooded cells
+
+--- SECTION 3: Monotonicity Validation ---
+[PASS] ✓ Test 3a: Flooded % non-decreasing — monotonic across 35-55m
+[PASS] ✓ Test 3b: Flooded volume non-decreasing — monotonic across 35-55m
+[PASS] ✓ Test 3c: Max depth increases 1m per 1m water rise — linear relationship
+
+--- SECTION 4: Area/Volume Calculation ---
+[PASS] ✓ Test 4a: Total flooded area calculation — 1997100 m²
+[PASS] ✓ Test 4b: Flood volume calculation — 11422919 m³
+[PASS] ✓ Test 4c: Manual verification at 45m — n_flooded=2219, area=1997100 m²
+
+===============================================
+SUMMARY: 13/13 checks passed
+Physical validity: CONFIRMED
+===============================================
