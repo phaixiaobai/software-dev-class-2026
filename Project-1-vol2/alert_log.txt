@@ -1,0 +1,10 @@
+[2026-04-14 11:46:56] | City: Bangkok | Rainfall: 25 mm/h | Level: Red
+[2026-04-14 11:46:56] | City: Bangkok | Rainfall: 15 mm/h | Level: Yellow
+[2026-04-14 12:15:33] | City: Singapore | Rainfall: 22 mm/h | Level: Red
+[2026-04-14 13:45:12] | City: Jakarta | Rainfall: 18 mm/h | Level: Yellow
+[2026-04-14 14:20:45] | City: Bangkok | Rainfall: 12 mm/h | Level: Yellow
+[2026-04-14 15:10:22] | City: Kuala Lumpur | Rainfall: 35 mm/h | Level: Red
+[2026-04-14 16:05:18] | City: Manila | Rainfall: 28 mm/h | Level: Red
+[2026-04-14 17:30:55] | City: Hanoi | Rainfall: 14 mm/h | Level: Yellow
+[2026-04-14 18:15:40] | City: Ho Chi Minh City | Rainfall: 21 mm/h | Level: Red
+[2026-04-14 19:00:09] | City: Phnom Penh | Rainfall: 11 mm/h | Level: Yellow
