@@ -1,5 +1,16 @@
 import numpy as np
-from scipy import ndimage
+try:
+    from scipy import ndimage
+except Exception as e:  # ImportError or other import-time issues
+    msg = (
+        "SciPy is not available in this Python environment.\n"
+        "This project expects SciPy to be installed. Recommended options:\n"
+        "  1) Use the provided venv: run './run.sh' in the project root.\n"
+        "  2) Create and activate a venv yourself and install requirements.txt.\n"
+        "  3) Use conda and install scipy from conda-forge.\n\n"
+        f"Original import error: {e!s}\n"
+    )
+    raise SystemExit(msg)
 
 
 def load_dem(filepath: str | None = None) -> np.ndarray:
